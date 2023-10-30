@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container{
+    /* border: black 5px solid; */
+    display: grid;
+    height: 800px;
+    width:800px;
+    grid-template-columns:repeat(3,auto);
+    grid-gap: 5px;
+}
+.grid-item-1{
+    /* border: aqua 5px solid; */
+    background-image: url(https://i.pinimg.com/originals/d2/6b/93/d26b93970c974a944536144e6accb1d3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-item-2{
+    /* border: aqua 5px solid; */
+    background-image: url(https://m.media-amazon.com/images/I/91hzz3Ye3uL.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-item-3{
+    /* border: aqua 5px solid; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXDsGrk2Mpf7ZmNscRVtidoAsbd1TU4S-Q_A&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-item-4{
+    /* border: aqua 5px solid; */
+    background-image: url(https://pbs.twimg.com/media/DmPwO3ZW0AAWNT_?format=jpg&name=large);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-item-5{
+    /* border: aqua 5px solid; */
+    background-image: url(https://themoodguide.com/wp-content/uploads/2023/07/blue-shell-background-for-iphone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-item-6{
+    /* border: aqua 5px solid; */
+    background-image: url(https://i.pinimg.com/236x/f9/07/04/f90704edcc88b5aa8fc10226910da151.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
